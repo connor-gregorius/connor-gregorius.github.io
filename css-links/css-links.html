@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Links</title>
+<style>
+a.one:link {color:#ff0000;}
+a.one:visited {font-size: 150%;}
+a.one:hover {font-family: monospace;}
+a.one:active {background-color: hotpink;}
+
+a.two:link {color:orange;}
+a.two:visited {text-decoration:underline;}
+a.two:hover {font-size: 400%;}
+a.two:active {background-color: yellow;}
+
+a.three:link {font-size: 200%;}
+a.three:visited {text-decoration:underline;}
+a.three:hover {color:green;}
+a.three:active {background-color: yellow;}
+
+a.four:link {color:orange;}
+a.four:visited {text-decoration:underline;}
+a.four:hover {background-color: blueviolet;}
+a.four:active {font-size: 300%;}
+
+a.five:link {color:orange;}
+a.five:visited {text-decoration:underline;}
+a.five:hover {font-size: 500%;}
+a.five:active {background-color: yellow;}
+
+a.six:link, a.six:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.six:hover, a.six:active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<p><a class="one" href="https://www.youtube.com/">YouTube</a></p>
+<p><a class="two" href="https://www.youtube.com/">YouTube</a></p>
+<p><a class="three" href="https://www.youtube.com/">YouTube</a></p>
+<p><a class="four" href="https://www.youtube.com/">YouTube</a></p>
+<p><a class="five" href="https://www.youtube.com/">YouTube</a></p>
+
+<a class="six" href="https://www.youtube.com/">This is a link</a>
+
+</body>
+</html>
