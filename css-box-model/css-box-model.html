@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Box Model</title>
+<style>
+.first 
+{
+  width: 300px;
+  border-style: solid;
+  border-width: 10px;
+  padding: 50px;
+  margin: 20px;
+  outline-style: dotted;
+  outline-width: 5px;
+}
+.second 
+{
+  width: 100px;
+  border-style: dotted;
+  border-width: 5px 20px;
+  padding: 50px 10px;
+  margin: 20px 50px;
+  outline-style: dashed;
+  outline-width: 10px;
+}
+.third 
+{
+  width: 600px;
+  border-style: dotted groove inset double;
+  border-width: 5px 40px 25px 70px;
+  padding: 50px 10px 20px 35px;
+  margin: 20px 50px 5px 60px;
+  outline-style: solid;
+  outline-width: 15px;
+}
+</style>
+</head>
+<body>
+<div class="first"><p>
+content width: 300px<br>
+top margin: 20px<br>
+right margin: 20px<br>
+bottom margin: 20px<br>
+left margin: 20px<br>
+top border: 10px<br>
+right border: 10px<br>
+bottom border: 10px<br>
+left border: 10px<br>
+top padding: 50px<br>
+right padding: 50px<br>
+bottom padding: 50px<br>
+left padding: 50px<br>
+outline thickness: 5px<br>
+TOTAL BOX WIDTH: 450px
+</p>
+</div>
+<div class="second"><p>
+content width: 100px<br>
+top margin: 20px<br>
+right margin: 50px<br>
+bottom margin: 20px<br>
+left margin: 50px<br>
+top border: 5px<br>
+right border: 20px<br>
+bottom border: 5px<br>
+left border: 20px<br>
+top padding: 50px<br>
+right padding: 10px<br>
+bottom padding: 50px<br>
+left padding: 10px<br>
+outline thickness: 10px<br>
+TOTAL BOX WIDTH: 255
+</p>
+</div>
+<div class="third"><p>
+content width: 600<br>
+top margin: 20px<br>
+right margin: 50px<br>
+bottom margin: 5px<br>
+left margin: 60px<br>
+top border: 5px<br>
+right border: 40px<br>
+bottom border: 25px<br>
+left border: 70px<br>
+top padding: 50px<br>
+right padding: 10px<br>
+bottom padding: 20px<br>
+left padding: 35px<br>
+outline thickness: 15px<br>
+TOTAL BOX WIDTH: 990
+</p>
+</div>
+</body>
+</html>
