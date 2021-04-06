@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Opacity</title>
+<style>
+#image1
+{opacity: 0.5;}
+#table{width: 100px; height: 100px; background-color: aquamarine; }
+#table2{width: 100px; height: 100px;}
+table, th, td {border: 1px solid black; border-collapse: collapse;}
+#cell1
+{opacity: 0.9;}
+#cell2
+{opacity: 0.8;}
+#cell3
+{opacity: 0.7;}
+#cell4
+{opacity: 0.6;}
+#cell5
+{opacity: 0.5;}
+#cell6
+{opacity: 0.4;}
+#cell7
+{opacity: 0.3;}
+#cell8
+{opacity: 0.2;}
+#cell9
+{opacity: 0.1;}
+#cell10
+{background: rgba(0, 255, 255, 0.9)}
+#cell11
+{background: rgba(0, 255, 255, 0.8)}
+#cell12
+{background: rgba(0, 255, 255, 0.7)}
+#cell13
+{background: rgba(0, 255, 255, 0.6)}
+#cell14
+{background: rgba(0, 255, 255, 0.5)}
+#cell15
+{background: rgba(0, 255, 255, 0.4)}
+#cell16
+{background: rgba(0, 255, 255, 0.3)}
+#cell17
+{background: rgba(0, 255, 255, 0.2)}
+#cell18
+{background: rgba(0, 255, 255, 0.1)}
+
+#image2{position: fixed; cursor: cell;}
+#image3{position: relative; left: 40px; cursor: cell; opacity: 0.6;}
+</style>
+</head>
+<body>
+
+<img id="image1" src="image1.jpg" alt="Art1">
+
+<table id="table">
+  <tr>
+    <th id="cell1">90%</th>
+    <th id="cell2">80%</th>
+    <th id="cell3">70%</th>
+  </tr>
+  <tr>
+    <td id="cell4">60%</td>
+    <td id="cell5">50%</td>
+    <td id="cell6">40%</td>
+  </tr>
+  <tr>
+    <td id="cell7">30%</td>
+    <td id="cell8">20%</td>
+    <td id="cell9">10%</td>
+  </tr>
+</table>
+
+<table id="table2">
+  <tr>
+    <th id="cell10">90%</th>
+    <th id="cell11">80%</th>
+    <th id="cell12">70%</th>
+  </tr>
+  <tr>
+    <td id="cell13">60%</td>
+    <td id="cell14">50%</td>
+    <td id="cell15">40%</td>
+  </tr>
+  <tr>
+    <td id="cell16">30%</td>
+    <td id="cell17">20%</td>
+    <td id="cell18">10%</td>
+  </tr>
+</table>
+
+<img id="image2" src="image2.jpg" alt="Art2">
+<img id="image3" src="image3.jpg" alt="Art3">
+
+</body>
+</html>
