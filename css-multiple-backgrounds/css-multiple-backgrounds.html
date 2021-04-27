@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Multiple Backgrounds</title>
+<style>
+html { 
+  background: url(art2.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+#first
+{
+height: 500px;
+width: 500px;
+background-image: url(hat.png), url("800.jpeg"), url("tiles.jpg");
+background-repeat: no-repeat, no-repeat, repeat;
+background-size: 90px, 160px, auto;
+background-position: 350px 350px, right bottom;
+}
+
+#second
+{
+height: 500px;
+width: 500px;
+background: url(hat.png) 350px 350px no-repeat, url("800.jpeg") right bottom no-repeat, url("tiles.jpg") repeat;
+background-size: 90px, 160px, auto;
+}
+
+#hero
+{
+    height: 300px;
+    width: 300px;;
+background: url(Cart-Hero.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+</style>
+</head>
+<body>
+
+<div id="hero">
+    <h1>Connor Gregorius</h1>
+</div>    
+
+<div id="first"></div>
+
+<div id="second"></div>
+
+</body>
+
+</html>
