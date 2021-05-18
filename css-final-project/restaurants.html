@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accomodations</title>
+<style>
+
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.pad
+{
+    padding-left: 50px;
+}
+
+.para
+{
+    line-height: 2 ;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Restaurants</h1>
+</div>
+
+<ul>
+  <li><a href="index.html">Index</a></li>
+  <li><a href="accomodations.html">Accomodations</a></li>
+  <li><a href="restaurants.html">Restaurants</a></li>
+  <li><a href="history.html">History</a></li>
+  <li><a href="photos.html">Photos</a></li>
+  <li><a href="directions.html">Directions</a></li>
+</ul>
+
+<div class="row">
+  <div class="column">
+    <h2>Types of Restaurants</h2>
+    <p class="para">
+        Seattle is proud to offer countless varying restaurants to fit everyone's taste. From seafood to sandwiches, 
+        whatever you may be looking for, Seattle has it. Check out sites like Cafe Munir, prices are strikingly low for the 
+        shared hummus plates, mezze dips and spreads, meat and vegetable kebabs, 
+        and family-style platters. Pizzerias like Delancey and Stoneburner will have your mouth watering upon entering.
+    </p>
+  </div>
+  
+  <div class="column">
+    <h2>Various Restaurants</h2>
+    <p><a href="https://www.seattlemet.com/restaurants/brimmer-and-heeltap">Brimmer and Heeltap</a></p>
+    <p><a href="https://www.seattlemet.com/restaurants/cafe-munir">Cafe Munir</a></p>
+    <p><a href="https://www.seattlemet.com/restaurants/copine">Copine</a></p>
+    <p><a href="https://www.seattlemet.com/restaurants/delancey">Delancey</a></p>
+    <p><a href="https://www.seattlemet.com/restaurants/la-carta-de-oaxaca">La Carta de Oaxaca</a></p>
+    <p><a href="https://www.seattlemet.com/restaurants/mean-sandwich">Mean Sandwich</a></p>
+    <p><a href="https://www.seattlemet.com/restaurants/pestle-rock">Pestle Rock</a></p>
+    <p><a href="https://www.seattlemet.com/restaurants/stoneburner">Stoneburner</a></p>
+    <p><a href="https://www.seattlemet.com/restaurants/walrus-and-the-carpenter">The Walrus and the Carpenter</a></p>
+    <p><a href="https://www.seattlemet.com/restaurants/bar-del-corso">Bar del Corso</a></p>
+  </div>
+</div>
+
+<img class="pad" src="res1.jpg" alt="Mean Sandwich" width="500" height="300">
+<img class="pad" src="res2.jpg" alt="Steak" width="300" height="300">
+
+<footer class="footer">
+  <p>&#169;2021</p>
+</footer>
+</body>
+</html>

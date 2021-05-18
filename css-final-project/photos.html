@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photos</title>
+<style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Photos</h1>
+</div>
+
+<ul>
+  <li><a href="index.html">Index</a></li>
+  <li><a href="accomodations.html">Accomodations</a></li>
+  <li><a href="restaurants.html">Restaurants</a></li>
+  <li><a href="history.html">History</a></li>
+  <li><a href="photos.html">Photos</a></li>
+  <li><a href="directions.html">Directions</a></li>
+</ul>
+
+<div class="row">
+  <div class="column">
+      <figure>
+        <img class="pad" src="sea1.jpg" alt="Space Needle at night" width="300" height="300">
+        <figcaption>Space Needle at night</figcaption>
+    </figure>
+    <figure>
+        <img class="pad" src="sea2.jpg" alt="Aerial view of Seattle" width="500" height="300">
+        <figcaption>Aerial view of Seattle</figcaption>
+    </figure>
+    <figure>
+        <img class="pad" src="sea3.PNG" alt="Busy Highways" width="500" height="300">
+        <figcaption>Busy Seattle highways</figcaption>
+    </figure>
+    <figure>
+        <img class="pad" src="sea4.PNG" alt="Seattle Mountains" width="500" height="300">
+        <figcaption>Seattle's mountains</figcaption>
+    </figure>
+    <figure>
+        <img class="pad" src="sea5.jpg" alt="High Skyscrapers" width="500" height="300">
+        <figcaption>High skyscrapers</figcaption>
+    </figure>
+  </div>
+  
+  <div class="column">
+    <figure>
+        <img class="pad" src="sea6.jpg" alt="Downtown at night" width="500" height="300">
+        <figcaption>Downtown Seattle at night</figcaption>
+    </figure>
+    <figure>
+        <img class="pad" src="sea7.jpg" alt="Seattle protests" width="500" height="300">
+        <figcaption>Seattle Protests</figcaption>
+    </figure>
+    <figure>
+        <img class="pad" src="sea8.jpg" alt="Ferris Wheel at Pier 57" width="500" height="300">
+        <figcaption>Ferris Wheel at Pier 57</figcaption>
+    </figure>
+    <figure>
+        <img class="pad" src="sea9.jpg" alt="Busy Highway at night" width="500" height="300">
+        <figcaption>Busy highway at night</figcaption>
+    </figure>
+    <figure>
+        <img class="pad" src="sea10.jpg" alt="Aerial Shot" width="500" height="300">
+        <figcaption>Aerial shot of Seattle</figcaption>
+    </figure>
+  </div>
+</div>
+<footer class="footer">
+  <p>&#169;2021</p>
+</footer>
+</body>
+</html>

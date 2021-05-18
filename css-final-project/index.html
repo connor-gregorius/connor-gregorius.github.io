@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+<style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.pad
+{
+    padding-left: 50px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to Seattle!</h1>
+</div>
+
+<ul>
+  <li><a href="index.html">Index</a></li>
+  <li><a href="accomodations.html">Accomodations</a></li>
+  <li><a href="restaurants.html">Restaurants</a></li>
+  <li><a href="history.html">History</a></li>
+  <li><a href="photos.html">Photos</a></li>
+  <li><a href="directions.html">Directions</a></li>
+</ul>
+
+<div class="row">
+  <div class="column">
+    <h2>Why Visit?</h2>
+    <p>Seattle is one of the most popular cities in the entire US and for good reason! Its beautiful scenery and lively 
+        atmosphere make it a must-see for any traveler! With countless places to hike, to eat, and to tour, there is something for 
+        everyone! It’s well worth driving a few hours outside the city to explore the wilderness. Seattle has access to mountains, 
+        oceans, a rainforest, deserts, farmland, islands, and even a volcano. There are also plenty of art exhibits for those with an artistic mind.
+        Other than  Chihuly Garden and Glass, Seattle boasts almost 200 art galleries, five art museums and numerous public art 
+        projects scattered across the city. Lastly, the San Juan Islands are the best place to spot whales, especially orcas. The largest 
+        of the San Juan Islands is actually named Orcas Island. Keep your eyes peeled on a ferry across the 
+        Puget Sound or set up a proper whale-watching tour! </p>
+        <p>For more information, contact seattle_agency@gmail.com</p>
+  </div>
+</div>
+<img class="pad" src="art.jpg" alt="Art" width="500" height="300">
+<img class="pad" src="whales.jpg" alt="Whales" width="500" height="300">
+<footer class="footer">
+  <p>&#169;2021</p>
+</footer>
+</body>
+</html>
